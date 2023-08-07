@@ -20,8 +20,8 @@ public class SpringApplicationTests {
     public void beforeTest() throws Exception
      {
    // replace seleniumhost and port with correct values
-        driver = new RemoteWebDriver(new URL("http://localhost:8080/"), chromeOptions);
-        driver.manage().window().maximize();
+        driver = new RemoteWebDriver(new URL("http://localhost:8081/"), chromeOptions);
+       // driver.manage().window().maximize();
     }
     @Test
 	public void flipkart() throws InterruptedException 
